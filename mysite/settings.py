@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
+    'markdown_deux',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,6 +53,11 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'mysite.urls'
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
+
+TEMPLATE_DIRS = (
+    '/home/captain/Development/new_project/mysite/templates',
+
+    )
 
 
 # Database
